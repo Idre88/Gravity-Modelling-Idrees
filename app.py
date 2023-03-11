@@ -43,7 +43,7 @@ with st.sidebar:
     deltap2 = st.slider("Delta P", -20.0, 20.0, -4.0, key="deltap2")
     radius2 = st.slider("Radius", 1, 30, 10, key="radius2")
 
-st.title("Gravity Modling")
+st.title("Gravity Modelling")
 
 fig = go.Figure()
 
